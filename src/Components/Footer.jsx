@@ -31,13 +31,13 @@ const Footer = (props) => {
   const {
     devDotTo,
     email = "pateldivyesh2309@gmail.com",
-    gitHub = "https://github.com/Divyesh230902",
-    instagram = "https://www.instagram.com/unknown.ai_2309",
-    linkedIn = "www.linkedin.com/in/thedivyeshpatel",
+    gitHub = "Divyesh230902",
+    instagram = "unknown.ai_2309",
+    linkedIn = "thedivyeshpatel",
     medium,
     name,
     primaryColor,
-    twitter = "https://twitter.com/Divyesh2309",
+    twitter = "Divyesh2309",
     youTube,
   } = props;
 
