@@ -122,7 +122,7 @@ const Footer = (props) => {
 };
 
 Footer.defaultProps = {
-  name: "",
+  name: "Divyesh Patel",
 };
 
 Footer.propTypes = {
