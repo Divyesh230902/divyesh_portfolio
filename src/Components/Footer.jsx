@@ -18,6 +18,7 @@ import linkedInIcon from "../images/socials/linkedin.svg";
 import mediumIcon from "../images/socials/medium.svg";
 import twitterIcon from "../images/socials/twitter.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
+import { getMaxListeners } from "process";
 
 /**
  * 💡 Learning resources
@@ -29,14 +30,14 @@ import youTubeIcon from "../images/socials/youtube.svg";
 const Footer = (props) => {
   const {
     devDotTo,
-    email,
-    gitHub,
-    instagram,
-    linkedIn,
+    email = "pateldivyesh2309@gmail.com",
+    gitHub = "https://github.com/Divyesh230902",
+    instagram = "https://www.instagram.com/unknown.ai_2309",
+    linkedIn = "www.linkedin.com/in/thedivyeshpatel",
     medium,
     name,
     primaryColor,
-    twitter,
+    twitter = "https://twitter.com/Divyesh2309",
     youTube,
   } = props;
 
