@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://Divyesh230902.github.com/divyesh_portfolio",
+  "homepage": "https://divyesh230902.github.com/divyesh_portfolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://Divyesh230902.github.io/divyesh_portfolio'",
+    "build-gh": "parcel build --public-url 'https://divyesh230902.github.io/divyesh_portfolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
