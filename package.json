@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://divyesh230902.github.com/divyesh_portfolio",
+  "homepage": "https://divyesh230902.github.io/divyesh_portfolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
